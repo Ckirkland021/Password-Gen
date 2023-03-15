@@ -1,5 +1,8 @@
 // Assignment code here
-
+var lowercaseChar = 'abcdefghijklmnopqrstuvwxyz';
+var uppercaseChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var numbersChar = '1234567890';
+var specChar = '!@#$%^&*()_+-={}|[]\:";<>?,./';
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -20,22 +23,28 @@ function generatePassword() {
 
 
   //1. prompt the user for password criteria
-    prompt ('How many character would you like yout password to be?');
-    confirm ('Click OK to use upppercase letters??');
-    confirm ('Click OK to use lowerrcase letters??');
-    confirm ('Click OK to use special characters??');
-    confirm ('Click OK to use numbers??');
-  // Password length between 8 and 128
+   // Password length between 8 and 128
   // 2. Prompt user as to if they want to use lowercase, uppercase, special and numbers
+  var pwLength =  prompt ('How many character would you like yout password to be?');
+  if (pwLength >= 8 && pwLength <= 128) {
+    
+    var upperCom = confirm ('Click OK to use upppercase letters??');
+    var lowerCom =  confirm ('Click OK to use lowerrcase letters??');
+    var scCom =  confirm ('Click OK to use special characters??');
+    var numberCom = confirm ('Click OK to use numbers??');
+
+    if (upperCom === false && lowerCom === false && scCom === false && numberCom === false) {
+      alert("Please choose at least one option.")
+      location.reload()
+    };
+}
 
 
   // 3. Validate the input
   // 4. generate the password
 
-var lowercaseChar = 'abcdefghijklmnopqrstuvwxyz';
-var uppercaseChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-var numbersChar = '1234567890';
-var specChar = '!@#$%^&*()_+-={}|[]\:";<>?,./';
+
+
 
 
 
@@ -56,4 +65,3 @@ generateBtn.addEventListener("click", writePassword);
 
 
 // return string.fromCharCode(97);
-
