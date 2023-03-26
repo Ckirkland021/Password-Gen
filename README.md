@@ -7,7 +7,7 @@ https://github.com/Ckirkland021/Password-Gen
 
 
 <h1>Deplyoable link</h1>
-https://ckirkland021.github.io/Portfolio/
+https://ckirkland021.github.io/Password-Gen/
 
 
 <h1>Website Photo</h1>
