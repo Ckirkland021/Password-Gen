@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Password Generator
 
 Hello, here is my Password Generator!
 
