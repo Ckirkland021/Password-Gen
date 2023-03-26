@@ -65,12 +65,14 @@ function generatePassword() {
     var chosenChar = '';
     
     for (let i = 0; i < pwLength; i++) {
-      chosenChar += possChar[]
+      // chosenChar += possChar[i];
       // get it to selecct random numbers
+      // Math.floor(Math.random() * pwLength);
+      chosenChar += possChar.charAt(Math.floor(Math.random() * possChar.length));
     }
     
-
 console.log(possChar)
+console.log(chosenChar)
   }
 
 
@@ -87,7 +89,7 @@ console.log(possChar)
 
 
   // 5. Display the password on the page
-  return 'burrito Password';
+  return chosenChar;
 }
 
 
