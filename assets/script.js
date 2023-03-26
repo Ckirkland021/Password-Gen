@@ -1,4 +1,4 @@
-// Assignment code here
+// variables for our character types
 var lowercaseChar = 'abcdefghijklmnopqrstuvwxyz';
 var uppercaseChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var numbersChar = '1234567890';
@@ -42,6 +42,7 @@ function generatePassword() {
       location.reload()
     };
 
+    // Attaches the users selections to conditionals
     var possChar = '';
     if (upperCom) {
       possChar += uppercaseChar;
@@ -65,9 +66,7 @@ function generatePassword() {
     var chosenChar = '';
     
     for (let i = 0; i < pwLength; i++) {
-      // chosenChar += possChar[i];
-      // get it to selecct random numbers
-      // Math.floor(Math.random() * pwLength);
+    //  makes the criteria slected randomized
       chosenChar += possChar.charAt(Math.floor(Math.random() * possChar.length));
     }
     
@@ -76,10 +75,6 @@ console.log(chosenChar)
   }
 
 
-
-
-  // 3. Validate the input
-  // 4. generate the password
 
 
 
@@ -97,5 +92,3 @@ console.log(chosenChar)
 generateBtn.addEventListener("click", writePassword);
 
 
-
-// return string.fromCharCode(97);
