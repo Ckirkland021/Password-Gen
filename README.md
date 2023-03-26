@@ -3,7 +3,7 @@
 Hello, here is my Password Generator!
 
 <h1>GitHub Link</h1>
-https://github.com/Ckirkland021/Portfolio
+https://github.com/Ckirkland021/Password-Gen
 
 
 <h1>Deplyoable link</h1>
