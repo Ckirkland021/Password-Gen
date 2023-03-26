@@ -11,4 +11,5 @@ https://ckirkland021.github.io/Password-Gen/
 
 
 <h1>Website Photo</h1>
-<img width="1440" alt="portfolio photo" src="https://user-images.githubusercontent.com/125106964/223320796-5b42ee9b-65dc-4e7b-9a85-13f341ef6acc.png">
+<img width="1440" alt="portfolio photo" src="https://user-images.githubusercontent.com/125106964/227750231-9fedf502-ea2d-454f-951a-7e82e44348a8.png">
+![passgen photo](https://user-images.githubusercontent.com/125106964/227750231-9fedf502-ea2d-454f-951a-7e82e44348a8.png)
